@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <link rel="stylesheet" href="payroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="full">
+        <sidebar class="sidebar">
+            <h1 class="heading">Payroll</h1>
+            <p>Dashboard</p>
+            <p id="employee">Employees</p>
+            <p>Payruns</p>
+            <p>Form 16</p>
+            <p>Contact Us</p>
+        </sidebar>
+        <section class="right">
+        <section class="top">
+            <div id="searchbox">
+                <form class="example" action="search.php">
+                    <input required placeholder="Search Employee" name="name">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="add">
+                <button onclick="window.location.href='addemployee.html'">Add Employee</button>
+            </div>
+        </section>
+        <section class="text">
+            <h1 class="heading">Get your employees onboard</h1>
+            <p>Add your employee details and manage their salary and allowances easily.</p>
+        </section>
+    </section>
+    </section>
+</body>
+</html>

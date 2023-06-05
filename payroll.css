@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+#full{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    background-color: #21263c;
+    color:white;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+.heading{
+    font-size: 2rem;
+    margin: 10px 0px;
+}
+#employee{
+    background-color: white;
+    color: #21263c;
+}
+.sidebar p{
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.top{
+    background-color: rgb(186, 179, 179);
+    width: 100%;
+    height: 76px;
+    top: 0;
+    right: 0;
+}
+#searchbox form{
+    margin: 20px;
+}
+form.example input{
+    padding: 0 6px;
+    font-size: 16px;
+    border: none;
+    height: 30px;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+form.example button {
+    padding: 6px 10px;
+    background: #ddd;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+form.example button:hover{
+    background-color: rgb(72, 70, 70);
+    color: blanchedalmond;
+}
+.add{
+    margin: 0;
+    padding: 0;
+}
+.add button{
+    float: right;
+    font-size: 23px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #21263c;
+    color: white;
+    margin-right: 30px;
+}
+.add button:hover{
+    background-color: #408dfb;
+}
+.text{
+    text-align: center;
+    margin: auto auto;
+}
