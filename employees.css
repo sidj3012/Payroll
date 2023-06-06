@@ -14,12 +14,11 @@
     flex-direction: column;
 }
 .sidebar{
-    width: 15%;
+    width: 12%;
     height: 100vh;
     background-color: #21263c;
     color:white;
     padding: 0px 20px;
-    box-sizing: border-box;
     font-size: 1.3rem;
 }
 .heading{
@@ -37,15 +36,12 @@
 }
 .top{
     background-color: rgb(186, 179, 179);
-    width: 100%;
     height: 76px;
-    top: 0;
-    right: 0;
 }
 #searchbox form{
     margin: 20px;
 }
-form.example input{
+#searchbox form input{
     padding: 0 6px;
     font-size: 16px;
     border: none;
@@ -54,7 +50,7 @@ form.example input{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-form.example button {
+#searchbox form button{
     padding: 6px 10px;
     background: #ddd;
     font-size: 18px;
@@ -64,13 +60,9 @@ form.example button {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-form.example button:hover{
+#searchbox form button:hover{
     background-color: rgb(72, 70, 70);
     color: blanchedalmond;
-}
-.add{
-    margin: 0;
-    padding: 0;
 }
 .add button{
     float: right;
