@@ -21,6 +21,13 @@
     padding: 0px 20px;
     font-size: 1.3rem;
 }
+.sidebar a{
+    display: block;
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
 .heading{
     font-size: 2rem;
     margin: 10px 0px;
@@ -28,13 +35,6 @@
 #employee{
     background-color: white;
     color: #21263c;
-}
-.sidebar a{
-    display: block;
-    padding: 7px 5px;
-    border-radius: 10px;
-    margin: 10px;
-    text-decoration: none;
 }
 .top{
     background-color: rgb(186, 179, 179);

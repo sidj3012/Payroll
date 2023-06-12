@@ -12,16 +12,16 @@
     top: 0;
     left: 0;
 }
-#employee{
-    background-color: white;
-    color: #21263c;
-}
 .sidebar a{
     display: block;
     padding: 7px 5px;
     border-radius: 10px;
     margin: 10px;
     text-decoration: none;
+}
+#employee{
+    background-color: white;
+    color: #21263c;
 }
 .heading1{
     display: block;
