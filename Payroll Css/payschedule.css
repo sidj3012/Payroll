@@ -36,7 +36,8 @@
     font-size: 17px;
 }
 #workweekcheck{
-    padding-bottom: 20px;
+    padding-top: 3px;
+    padding-bottom: 15px;
 }
 .form{
     width: 500px;
@@ -56,23 +57,6 @@ button {
     width: 100px;
     margin-left: 20px;
   }
-  button:hover {
+button:hover {
     opacity: 0.8;
   }
-  #prevBtn {
-    background-color: #bbbbbb;
-  }
-  /* Make circles that indicate the steps of the form: */
-  .step {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #0c0d15;
-    border: none;  
-    border-radius: 50%;
-    display: inline-block;
-
-}
-.step.finish {
-    background-color: #798be3;
-}
