@@ -8,13 +8,14 @@
 <body>
         <sidebar class="sidebar">
             <h1 class="heading">Payroll</h1>
-            <p>Dashboard</p>
-            <p id="employee">Employees</p>
-            <p>Payruns</p>
-            <p>Form 16</p>
-            <p>Reports</p>
-            <p>Settings</p>
+            <a>Dashboard</a>
+            <a href="employees.html" id="employee">Employees</a>
+            <a>Payruns</a>
+            <a>Form 16</a>
+            <a>Reports</a>
+            <a>Settings</a>
         </sidebar>
+
         <section class="form">
             <h1 class="heading1">Add Employee</h1>
             <form action="addemployee.php">
@@ -31,6 +32,7 @@
                     Date of Birth:<input class="input" type="date" name="dob">
                     Mobile Number:<input class="input" type="number" name="number">
                 </div>
+
                 <div class="tab">
                     Department:<select class="input" name="department">
                         <option>Select</option>>
@@ -49,19 +51,22 @@
                         <option value="softwareengineer">Software Engineer</option>
                     </select>
                 </div>
+
                 <div class="tab">
                         Basic : <input onblur="findTotal()" name="qty" class="input">
                         House Rent Allowance : <input onblur="findTotal()" name="qty" class="input">
                         Conveyance Allowance : <input onblur="findTotal()" name="qty" class="input">
                         Fixed allowance : <input onblur="findTotal()" name="qty" class="input">
-                        Cost To Company : <input name="total" id="ctc" class="input">
+                        Cost To Company : <input name="ctc" id="ctc" class="input">
                 </div>
+
                 <div style="overflow:auto;">
                     <div style="float:right;">
                         <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
                         <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
                     </div>
                 </div>
+                
                 <div style="text-align:center;margin-top:20px;">
                     <span class="step"></span>
                     <span class="step"></span>

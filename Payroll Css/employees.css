@@ -29,10 +29,12 @@
     background-color: white;
     color: #21263c;
 }
-.sidebar p{
+.sidebar a{
+    display: block;
     padding: 7px 5px;
     border-radius: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 .top{
     background-color: rgb(186, 179, 179);
@@ -80,4 +82,44 @@
 .text{
     text-align: center;
     margin: auto auto;
+}
+.box{
+    color: black;
+    border: 2px solid black;
+    background-color: #f1f1f1;
+    margin: 16px;
+    font-size: 1.3rem;
+}
+.collapsible {
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      font-size: 22px;
+}
+.active, .collapsible:hover {
+    background-color: #555;
+}
+.content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: #f1f1f1;
+}
+.d1{
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+.d2{
+    display: block;
+    margin: 0 300px;
+    float: left;
+}
+.d3{
+    display: block;
+    float: right;
+    margin-right: 150px;
 }
