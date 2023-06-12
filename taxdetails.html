@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tax Details</title>
+    <link rel="stylesheet" href="Payroll Css/taxdetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+        <sidebar class="sidebar">
+            <h1 class="heading">Payroll</h1>
+            <p>Dashboard</p>
+            <p id="employee">Employees</p>
+            <p>Payruns</p>
+            <p>Form 16</p>
+            <p>Reports</p>
+            <p>Settings</p>
+        </sidebar>
+        <section class="form">
+            <h1 class="heading1">Organisation Tax Details</h1>
+            <form action="taxdetails.php">
+                PAN: <input class="input" name="pan">
+                TAN: <input class="input" name="tan">
+                TDS circle / AO code: <input class="input" name="tds">
+                <h1 class="heading1">Tax Deductor Details</h1>
+                Deductor's Employee ID: <input class="input" name="deductorid">
+                Deductor's name: <input class="input" name="deductorname">
+                Deductor's Father's name: <input class="input" name="deductorfathername">
+                <div style="overflow:auto;">
+                    <div style="float:right;">
+                        <button type="button" id="savetaxdetails">Save</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+</body>
+</html>

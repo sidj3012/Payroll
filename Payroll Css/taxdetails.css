@@ -1,0 +1,62 @@
+*{
+    font-family: 'Bree Serif', serif;
+}
+.sidebar{
+    width: 12%;
+    height: 100vh;
+    background-color: #21263c;
+    color:white;
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.sidebar p{
+    padding: 7px 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.heading1{
+    display: block;
+    text-align: center;
+    margin: 29px auto;
+    font-size: 2rem;
+}
+.input{
+    display: block;
+    width: 100%;
+    height: 33px;
+    margin-bottom: 18px;
+    font-family: Raleway;
+    font-size: 17px;
+}
+.weekdays{
+    font-family: Raleway;
+    font-size: 17px;
+}
+#workweekcheck{
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+.form{
+    width: 500px;
+    margin: auto;
+}
+input.invalid {
+    background-color: #ffdddd;
+}
+button {
+    background-color: #21263c;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    width: 100px;
+    margin-left: 20px;
+  }
+button:hover {
+    opacity: 0.8;
+  }
