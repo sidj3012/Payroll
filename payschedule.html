@@ -1,0 +1,72 @@
+<html>
+<head>
+    <title>Pay Schedule</title>
+    <link rel="stylesheet" href="Payroll Css/payschedule.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+        <sidebar class="sidebar">
+            <h1 class="heading">Payroll</h1>
+            <p>Dashboard</p>
+            <p id="employee">Employees</p>
+            <p>Payruns</p>
+            <p>Form 16</p>
+            <p>Reports</p>
+            <p>Settings</p>
+        </sidebar>
+        <section class="form">
+            <h1 class="heading1">Setup Pay Schedule</h1>
+            <form action="payschedule.php">
+                Select your weekly workdays:<p>
+                <div id="workWeekCheck">
+                    <input type="checkbox" id="monday" name="monday" value="monday">
+                    <label for="monday" class="weekdays"> Monday</label><br>
+                    <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+                    <label for="tuesday" class="weekdays"> Tuesday</label><br>
+                    <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+                    <label for="wednesday" class="weekdays"> Wednesday</label><br>
+                    <input type="checkbox" id="thursday" name="thursday" value="thursday">
+                    <label for="thursday" class="weekdays"> Thursday</label><br>
+                    <input type="checkbox" id="friday" name="friday" value="friday">
+                    <label for="friday" class="weekdays"> Friday</label><br>
+                    <input type="checkbox" id="saturday" name="saturday" value="saturday">
+                    <label for="saturday" class="weekdays"> Saturday</label><br>
+                    <input type="checkbox" id="sunday" name="sunday" value="sunday">
+                    <label for="sunday" class="weekdays"> Sunday</label><br>
+                </div>
+                    Calculate monthly salary based on:<select class="input" name="calculatesalary">
+                        <option>Select</option>>
+                        <option value="actualdays">Actual days in a month</option>
+                        <option value="workingdays">Organisation working days</option>
+                    </select>
+                    Organisation working days in a month:<input class="input" type="number" name="workdays">
+                    Pay your employees monthly on:<select class="input" name="paydate">
+                        <option>Select</option>>
+                        <option value="lastworkingday">Last working day of the month</option>
+                        <option value="1">Day 1</option>
+                        <option value="1">Day 2</option>
+                        <option value="1">Day 3</option>
+                        <option value="1">Day 4</option>
+                        <option value="1">Day 5</option>
+                        <option value="1">Day 6</option>
+                        <option value="1">Day 7</option>
+                        <option value="1">Day 8</option>
+                        <option value="1">Day 9</option>
+                        <option value="1">Day 10</option>
+                        <option value="1">Day 11</option>
+                        <option value="1">Day 12</option>
+                        <option value="1">Day 13</option>
+                        <option value="1">Day 14</option>
+                        <option value="1">Day 15</option>
+                        <option value="1">Day 16</option>
+                    </select>
+                <div style="overflow:auto;">
+                    <div style="float:right;">
+                        <button type="button" id="nextBtn">Save</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+</body>
+</html>
