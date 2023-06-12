@@ -19,7 +19,7 @@
 }
 .heading1{
     display: block;
-    width: 56%;
+    text-align: center;
     margin: 29px auto;
     font-size: 2rem;
 }
