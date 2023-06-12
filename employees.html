@@ -9,13 +9,14 @@
     <section id="full">
         <sidebar class="sidebar">
             <h1 class="heading">Payroll</h1>
-            <p>Dashboard</p>
-            <p id="employee">Employees</p>
-            <p>Payruns</p>
-            <p>Form 16</p>
-            <p>Reports</p>
-            <p>Settings</p>
+            <a>Dashboard</a>
+            <a href="employees.html" id="employee">Employees</a>
+            <a>Payruns</a>
+            <a>Form 16</a>
+            <a>Reports</a>
+            <a>Settings</a>
         </sidebar>
+        
         <section class="right">
             <section class="top">
                 <div id="searchbox">
@@ -28,10 +29,44 @@
                     <button onclick="window.location.href='addemployee.html'">Add Employee</button>
                 </div>
             </section>
-            <section class="text">
+
+            <!--Demo employee details-->
+            <!--We can add a loop and display all details by fetching from database-->
+            <div class="box">
+                <button type="button" class="collapsible"><p class="d1">Siddharth Jain</p><p class="d2">Employee Id: 1234</p><p class="d3">Web Developer</p></button>
+                <div class="content">
+                    <p>Gender: Male</p>
+                    <p>Date of Joining: 05/05/2023</p>
+                    <p>Email: siddharthjain@iitbhilai.ac.in</p>
+                    <p>Mobile Number: 8957222010</p>
+                    <p>Date of Birth: 28/02/2004</p>
+                    <p>Department: Development</p>
+                    <p>Salary(CTC): 1,00,000</p>
+                </div>
+            </div>
+            <!--Code for collapsible details-->
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+
+            <!--Display below text if database is empty(i.e.no employees are added)-->
+            <!--<section class="text">
                 <h1 class="heading">Get your employees onboard</h1>
                 <p>Add your employee details and manage their salary and allowances easily.</p>
-            </section>
+            </section>-->
+
         </section>
     </section>
 </body>

@@ -16,10 +16,12 @@
     background-color: white;
     color: #21263c;
 }
-.sidebar p{
+.sidebar a{
+    display: block;
     padding: 7px 5px;
     border-radius: 10px;
     margin: 10px;
+    text-decoration: none;
 }
 .heading1{
     display: block;
